@@ -12,7 +12,7 @@ class NewsList extends Component{
     
     return(
         <div>
-            { this.state.news &&  this.state.news.map(nw =>{ 
+            { this.props.nn && this.props.nn.map(nw =>{ 
                 return (
                     <div>
                         {nw.name}
